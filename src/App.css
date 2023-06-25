@@ -135,11 +135,10 @@ input {
 
 .footer {
   color: #9E9E9E;
-  text-align: center;
   font-size: 14px;
   font-family: 'Montserrat';
   font-weight: 500;
-  margin: 70px 0 20px 0;
+  margin: 70px 0 20px 80px;
 }
 
 a {
