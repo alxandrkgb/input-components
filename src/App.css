@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: var(--gray-2, #4F4F4F);
+  font-size: 24px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  margin: 30px 0 0 81px;
+}
+  
+.groupOne, .groupTwo, .groupThree, .groupFour, .groupFive, .groupSix, .groupSeven, .groupEight, .groupNine {
+  display: flex;
+  margin : 65px 0 0 80px;
+  gap: 70px;
+}
+
+p {
+  color: var(--gray-1, #333);
+  font-size: 12px;
+  font-family: 'Ubuntu Mono';
+}
+
+label {
+  color: var(--gray-1, #333);
+  font-size: 12px;
+  font-family: 'Noto Sans JP';
+  margin: 16px 0 4px 0;
+}
+
+input {
+  width: 200px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  color: var(--gray-3, #828282);
+  font-size: 14px;
+  font-family: 'Noto Sans JP';
+  font-weight: 500;
+  padding-left: 12px;
+}
+
+#text-input-1, #text-input-8, #text-input-10, #text-input-11, #text-input-12, #text-input-14, #text-input-15, #text-input-16 {
+  border: 1px solid var(--gray-3, #828282);
+}
+
+#text-input-2, #text-input-5 {
+  border: 1px solid var(--gray-1, #333);
+}
+
+#text-input-2:hover, #text-input-5:hover {
+  border: 1px solid #ddd;
+}
+
+#text-input-3 {
+  border: 1px solid #2962FF;
+}
+
+#text-input-3:focus, #text-input-6:focus {
+  border: 1px solid var(--gray-1, #ddd);
+}
+
+#text-input-4, #text-input-6, #text-input-9 {
+  border: 1px solid #D32F2F;
+}
+
+#text-input-7 {
+  border: 1px solid var(--gray-5, #E0E0E0);
+  background: var(--gray-6, #F2F2F2);
+}
+
+.helperText {
+  font-size: 10px;
+  font-family: 'Noto Sans JP';
+  margin: 4px 0 0 0;
+}
+
+.helperText1 {
+  color: var(--gray-3, #828282);
+}
+
+.helperText2 {
+  color: #D32F2F;
+}
+
+.groupFive {
+  gap: 100px;
+}
+
+#text-input-10 {
+  padding-left: 35px;
+}
+
+.icon {
+  position: absolute;
+  margin: 24px 5px 0 10px;
+  width: 18px;
+  height: 18px;
+  color: #828282;
+}
+
+.icon2 {
+  position: absolute;
+  margin: 20px 0 0 -30px;
+  width: 21px;
+  height: 21px;
+  color: #828282;
+}
+
+.groupSeven {
+  gap: 120px;
+}
+
+#text-input-13 {
+  height: 40px;
+  border: 1px solid var(--gray-3, #828282);
+}
+
+#text-input-15 {
+  width: 1031px;
+}
+
+#text-input-16 {
+  border-radius: 8px;
+  color: var(--gray-3, #828282);
+  font-size: 14px;
+  font-family: 'Noto Sans JP';
+  font-weight: 500;
+  height: 150px;
+  padding: 12px 0 0 12px;
+}
+
+.footer {
+  color: #9E9E9E;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  margin: 70px 0 20px 0;
+}
+
+a {
+  color: #9E9E9E;
+  text-decoration: none;
+}
+
+.UserName {
+  font-weight: 700;
+}
